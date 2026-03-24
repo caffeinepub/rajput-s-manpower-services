@@ -3,13 +3,14 @@ import { Input } from "@/components/ui/input";
 import { Toaster } from "@/components/ui/sonner";
 import { Textarea } from "@/components/ui/textarea";
 import {
-  Building2,
   CheckCircle,
   Loader2,
   Mail,
   Menu,
   Phone,
   ShieldCheck,
+  SprayCan,
+  UserCog,
   Users,
   UtensilsCrossed,
   X,
@@ -41,24 +42,24 @@ const SERVICES = [
       "Vigilant, certified security personnel for commercial premises, events, and residential properties. Safety is our priority.",
   },
   {
-    icon: Users,
-    title: "General Manpower",
+    icon: SprayCan,
+    title: "Housekeeping Staff",
     description:
-      "Reliable general manpower for housekeeping, warehousing, logistics, and industrial operations. Skilled and ready to deploy.",
+      "Professional housekeeping staff for hotels, offices, hospitals, and residential complexes. Clean, hygienic, and reliable service every day.",
   },
   {
-    icon: Building2,
-    title: "Total Manpower Solutions",
+    icon: UserCog,
+    title: "Security Supervisor",
     description:
-      "End-to-end staffing solutions tailored to your business needs — from recruitment to deployment, we manage it all.",
+      "Experienced security supervisors to manage and oversee security teams, ensure compliance, and maintain a safe environment at your premises.",
   },
 ];
 
 const SERVICE_OPTIONS = [
   "Professional Waiters",
   "Security Guards",
-  "General Manpower",
-  "Total Manpower Solutions",
+  "Housekeeping Staff",
+  "Security Supervisor",
   "Other",
 ];
 
@@ -583,9 +584,8 @@ export default function App() {
                   Rajput's Manpower Services is a dedicated staffing firm
                   providing end-to-end manpower solutions across India. We
                   specialize in deploying professionally trained waiters,
-                  vigilant security guards, skilled general manpower, and
-                  comprehensive total staffing packages for businesses of all
-                  sizes.
+                  vigilant security guards, skilled housekeeping staff, and
+                  experienced security supervisors for businesses of all sizes.
                 </p>
                 <p className="text-sm text-foreground/75 leading-relaxed">
                   Founded by <strong className="text-navy">Rajput Karan</strong>
@@ -636,8 +636,8 @@ export default function App() {
               </div>
               <p className="text-xs text-white/60 leading-relaxed">
                 Rajput's Manpower Services is a trusted staffing firm providing
-                professional waiters, security guards, and total manpower
-                solutions across India.
+                professional waiters, security guards, housekeeping staff, and
+                security supervisors across India.
               </p>
             </div>
 
